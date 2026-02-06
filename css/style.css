@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&display=swap');
+:root 
+{
+    --o: #F0742C;
+    --g: #9C999A;
+    --p: #FFE3C6;
+    --w: #fff;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+      font-family: "Figtree", sans-serif;
+      background: #FFFBF2;
+}
+h1,h2,h3,h4,h5,h6 
+{
+      font-family: "Lexend", sans-serif;
+}
+.container
+{
+    max-width: 1240px;
+    margin: auto;
+}
+.hero 
+{
+    padding: 10px 0;
+}
+.btn 
+{
+    background: var(--o);
+    color: var(--w);
+}
+.flex 
+{
+    display: flex;
+}
+.jc 
+{
+    justify-content: space-between;
+}
+.ai 
+{
+    align-items: center;
+}
+.gap 
+{
+    gap: 20px;
+}
+nav a 
+{
+    text-decoration: none;
+    color: var(--g);
+    padding: 10px;
+    position: relative;
+}
+.btn
+{
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+nav a::before
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.9s;
+}
+nav a:hover::before{
+    width: 100%;
+}
+.hero img 
+{
+    width: 531px;
+}
+.hero
+{
+    padding: 52px 0;
+}
+.hero h1 
+{
+    font-size: 64px;
+}
+button
+{
+    border: none;
+}
+.btn1 
+{
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.hero span, .hero p 
+{
+    color: var(--g);
+}
+.hero-left 
+{
+    width: 700px;
+}
+.p 
+{
+    padding: 20px 0;
+}
+
+.about
+{
+    padding: 40px 0;
+}
+.text
+{
+    text-align: center;
+}
+.text h2 
+{
+    font-size: 33px;
+    font-weight: bold;
+}
+.text p 
+{
+    color: var(--g);
+}
+.tbox-c
+{
+    background: var(--w);
+    padding: 20px;
+}
+.tbox-c p 
+{
+    color: var(--g);
+    line-height: 1.7;
+}
+.t-box
+{
+    background: #fff;
+}
+.t-box img 
+{
+    width: 100%;
+}
+.f1 
+{
+    position: relative;
+}
+.aa 
+{
+    position: absolute;
+    right: 200px;
+    top: 0;width: 100px !important; height: auto;
+    z-index: 999;
+}
+.black
+{
+    background: #2F3035;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+.black p 
+{
+    padding: 20px 0;
+}
+footer
+{
+    background: var(--o);
+    color: aqua;
+}
+footer ul 
+{
+    list-style: none;
+}
+footer li 
+{
+    line-height: 1.8;
+}
